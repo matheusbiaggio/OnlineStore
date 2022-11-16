@@ -111,6 +111,7 @@ class Home extends React.Component {
     }
   };
 
+  // Busca se ja existe um id no stado
   filterShopCard = (id) => {
     const { shopCart } = this.state;
     const newShopCart = [...shopCart];
